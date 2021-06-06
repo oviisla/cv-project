@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+font-family: 'Lobster', cursive;
+
+}
+.container{
+    max-width: 1000px;
+    background-color: yellow;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.Head{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: darkblue;
+}
+.head-contact{
+    float: right;
+    padding: 30px;
+}
+.head-contact a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+.head-contact a:hover{
+    text-decoration: underline;
+    color:darkred;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin:20px auto;
+}
+/* personal section start */
+#personal-section{
+
+}
+.cotent{
+
+}
+.left-div{
+width: 30%;
+float: left;
+
+}
+.right-div{
+width: 70%;
+float: right;
+
+}
+.common-hr{
+    border: black solid 2px;
+    width: 100%;
+    border-bottom: none;
+    margin-top: 20px;
+}
+/* edu section start */
+.edu-left{
+    float: left;
+    width: 45%;
+}
+.edu-right{
+    float: left;
+    width: 45%;
+}
+/* footer section start */
+.bottom{
+    background-color: blue;
+    color: ghostwhite;
+    text-align: center;
+    padding: 20px;
+}
+.bottom a{
+    color: ghostwhite;
+    text-decoration: none;
+    margin: 20px;
+    margin-top: 20px;
+}
